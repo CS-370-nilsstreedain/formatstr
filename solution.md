@@ -1,10 +1,9 @@
-# Launcher inputs:
-Print prefix:
-```console
-%p %p %p %p %p%s
+# Get prefix:
+```bash
+echo "%p %p %p %p %p%s" | ./launcher
 ```
 
-Print flag:
-```console
-%p %p %p %p %p %p%s
+# Get flag:
+```bash
+echo "%p %p %p %p %p %p%s" | ./launcher
 ```
